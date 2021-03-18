@@ -3,6 +3,8 @@ import VueRouter from "vue-router";
 
 Vue.use(VueRouter);
 
+const import_vue = (path) => () => import("./views/" + path);
+
 export default new VueRouter({
   mode: "history",
   routes: [
@@ -14,5 +16,4 @@ export default new VueRouter({
   ],
 });
 
-const import_vue = (path) =>(() => import("./views/" + path));
 
