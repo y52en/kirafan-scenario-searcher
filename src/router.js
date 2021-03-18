@@ -6,7 +6,6 @@ Vue.use(VueRouter);
 const import_vue = (path) => () => import("./views/" + path);
 
 export default new VueRouter({
-  mode: "history",
   routes: [
     {
       path: "/",
