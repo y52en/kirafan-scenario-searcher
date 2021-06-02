@@ -152,7 +152,7 @@ export default {
         if (scenario.m_ScriptTextName) {
           const url =
             // "https://database-asset.kirafan.cn/advscript/" +
-            "https://advscript-asset.kirafan.cn/"
+            "https://advscript-asset.kirafan.cn/" +
             this.categories[category_id].name +
             "/ADVScriptText_" +
             this.categories[category_id].path +
